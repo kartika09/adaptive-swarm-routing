@@ -1,4 +1,4 @@
-\# Adaptive Swarm Routing Using Ant Colony Optimization
+﻿# Adaptive Swarm Routing Using Ant Colony Optimization
 
 
 
@@ -10,15 +10,15 @@ The project compares three routing approaches:
 
 
 
-\- \*\*Dijkstra's Algorithm:\*\* Shortest-path baseline.
+- **Dijkstra's Algorithm:** Shortest-path baseline.
 
-\- \*\*Standard Ant Colony Optimization (ACO):\*\* Uses pheromone-based probabilistic route selection.
+- **Standard Ant Colony Optimization (ACO):** Uses pheromone-based probabilistic route selection.
 
-\- \*\*Adaptive ACO:\*\* Applies pheromone adaptation after a network topology change to help the ant colony discover alternative routes.
+- **Adaptive ACO:** Applies pheromone adaptation after a network topology change to help the ant colony discover alternative routes.
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -30,39 +30,39 @@ This project investigates whether adapting pheromone levels after a link failure
 
 
 
-The simulation uses a weighted, undirected synthetic network containing 12 routers (A–L) and 20 links.
+The simulation uses a weighted, undirected synthetic network containing 12 routers (Aâ€“L) and 20 links.
 
 
 
-\## Features
+## Features
 
 
 
-\- Interactive network topology visualization.
+- Interactive network topology visualization.
 
-\- Source and destination router selection.
+- Source and destination router selection.
 
-\- Comparison of Dijkstra, Standard ACO, and Adaptive ACO.
+- Comparison of Dijkstra, Standard ACO, and Adaptive ACO.
 
-\- Simulation of network link failures.
+- Simulation of network link failures.
 
-\- Pheromone adaptation after topology changes.
+- Pheromone adaptation after topology changes.
 
-\- Route-cost comparison.
+- Route-cost comparison.
 
-\- ACO best-so-far convergence visualization.
+- ACO best-so-far convergence visualization.
 
-\- Multi-budget experimental evaluation.
+- Multi-budget experimental evaluation.
 
-\- Experimental summary and individual-run CSV results.
-
-
-
-\## Algorithms
+- Experimental summary and individual-run CSV results.
 
 
 
-\### 1. Dijkstra's Algorithm
+## Algorithms
+
+
+
+### 1. Dijkstra's Algorithm
 
 
 
@@ -70,7 +70,7 @@ Dijkstra's algorithm calculates the minimum-cost path between the selected sourc
 
 
 
-\### 2. Standard ACO
+### 2. Standard ACO
 
 
 
@@ -82,7 +82,7 @@ Pheromone evaporation and deposition allow the colony to reinforce promising rou
 
 
 
-\### 3. Adaptive ACO
+### 3. Adaptive ACO
 
 
 
@@ -106,13 +106,13 @@ Where:
 
 
 
-\- \\(\\tau\_{ij}\\) is the existing pheromone level.
+- \\(\\tau\_{ij}\\) is the existing pheromone level.
 
-\- \\(\\tau\_0\\) is the initial pheromone level.
+- \\(\\tau\_0\\) is the initial pheromone level.
 
-\- \\(\\gamma\\) is the adaptation strength.
+- \\(\\gamma\\) is the adaptation strength.
 
-\- \\(\\tau'\_{ij}\\) is the adapted pheromone level.
+- \\(\\tau'\_{ij}\\) is the adapted pheromone level.
 
 
 
@@ -120,23 +120,23 @@ This adjustment partially resets pheromone levels on active links towards the in
 
 
 
-\## Technology Stack
+## Technology Stack
 
 
 
-\- Python
+- Python
 
-\- Streamlit
+- Streamlit
 
-\- NetworkX
+- NetworkX
 
-\- Plotly
+- Plotly
 
-\- Pandas
+- Pandas
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
@@ -144,51 +144,51 @@ This adjustment partially resets pheromone levels on active links towards the in
 
 adaptive-swarm-routing/
 
-│
+â”‚
 
-├── algorithms/
+â”œâ”€â”€ algorithms/
 
-│   ├── \_\_init\_\_.py
+â”‚   â”œâ”€â”€ \_\_init\_\_.py
 
-│   ├── aco.py
+â”‚   â”œâ”€â”€ aco.py
 
-│   └── dijkstra.py
+â”‚   â””â”€â”€ dijkstra.py
 
-│
+â”‚
 
-├── simulation/
+â”œâ”€â”€ simulation/
 
-│   ├── \_\_init\_\_.py
+â”‚   â”œâ”€â”€ \_\_init\_\_.py
 
-│   └── network.py
+â”‚   â””â”€â”€ network.py
 
-│
+â”‚
 
-├── visualization/
+â”œâ”€â”€ visualization/
 
-│
+â”‚
 
-├── app.py
+â”œâ”€â”€ app.py
 
-├── evaluate\_aco.py
+â”œâ”€â”€ evaluate\_aco.py
 
-├── aco\_multi\_budget\_summary.csv
+â”œâ”€â”€ aco\_multi\_budget\_summary.csv
 
-├── aco\_multi\_budget\_individual.csv
+â”œâ”€â”€ aco\_multi\_budget\_individual.csv
 
-├── requirements.txt
+â”œâ”€â”€ requirements.txt
 
-└── README.md
+â””â”€â”€ README.md
 
 ```
 
 
 
-\## Installation and Setup
+## Installation and Setup
 
 
 
-\### 1. Clone the repository
+### 1. Clone the repository
 
 
 
@@ -202,7 +202,7 @@ cd adaptive-swarm-routing
 
 
 
-\### 2. Create a virtual environment
+### 2. Create a virtual environment
 
 
 
@@ -226,7 +226,7 @@ venv\\Scripts\\activate
 
 
 
-\### 3. Install dependencies
+### 3. Install dependencies
 
 
 
@@ -238,7 +238,7 @@ pip install -r requirements.txt
 
 
 
-\### 4. Run the application
+### 4. Run the application
 
 
 
@@ -254,7 +254,7 @@ The application will open in your browser.
 
 
 
-\## Running the Experiments
+## Running the Experiments
 
 
 
@@ -294,9 +294,9 @@ The evaluation generates:
 
 
 
-\- `aco\_multi\_budget\_summary.csv`
+- `aco\_multi\_budget\_summary.csv`
 
-\- `aco\_multi\_budget\_individual.csv`
+- `aco\_multi\_budget\_individual.csv`
 
 
 
@@ -304,7 +304,7 @@ The summary file contains aggregate performance metrics, while the individual fi
 
 
 
-\## Evaluation Metrics
+## Evaluation Metrics
 
 
 
@@ -312,23 +312,23 @@ The experimental evaluation considers:
 
 
 
-\- Mean route cost.
+- Mean route cost.
 
-\- Mean optimality gap relative to Dijkstra.
+- Mean optimality gap relative to Dijkstra.
 
-\- Optimal route rate.
+- Optimal route rate.
 
-\- Standard deviation of route cost.
+- Standard deviation of route cost.
 
-\- Stagnation indicator.
+- Stagnation indicator.
 
-\- Paired wins, losses, and ties.
+- Paired wins, losses, and ties.
 
-\- Failed route counts.
+- Failed route counts.
 
 
 
-\## Demonstration
+## Demonstration
 
 
 
@@ -352,39 +352,40 @@ The Streamlit dashboard allows users to:
 
 
 
-\## Scope and Limitations
+## Scope and Limitations
 
 
 
-\- The network is synthetic and illustrative, not a real-world network topology.
+- The network is synthetic and illustrative, not a real-world network topology.
 
-\- The experiments currently evaluate a specific topology and link-failure scenario.
+- The experiments currently evaluate a specific topology and link-failure scenario.
 
-\- The results should not be interpreted as proof of general superiority of Adaptive ACO.
+- The results should not be interpreted as proof of general superiority of Adaptive ACO.
 
-\- The simulation focuses on route discovery and weighted path costs; it does not model packet transmission, traffic demand, or real-time network congestion.
-
-
-
-\## Future Improvements
+- The simulation focuses on route discovery and weighted path costs; it does not model packet transmission, traffic demand, or real-time network congestion.
 
 
 
-\- Evaluate additional network topologies.
-
-\- Test multiple link-failure scenarios.
-
-\- Investigate different pheromone adaptation strengths.
-
-\- Extend the evaluation to larger networks.
+## Future Improvements
 
 
 
-\## Author
+- Evaluate additional network topologies.
+
+- Test multiple link-failure scenarios.
+
+- Investigate different pheromone adaptation strengths.
+
+- Extend the evaluation to larger networks.
+
+
+
+## Author
 
 
 
 Developed as a project exploring swarm intelligence and adaptive routing in dynamic networks.
+
 
 
 
