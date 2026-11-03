@@ -1,0 +1,91 @@
+Budget,Seed,Ants,Iterations,Dijkstra Cost,Dijkstra Route,Standard Cost,Standard Gap (%),Standard Route,Standard Stagnation,Standard Optimal,Adaptive Cost,Adaptive Gap (%),Adaptive Route,Adaptive Stagnation,Adaptive Optimal,Paired Outcome
+Low,0,5,20,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,11,True,17,0.0,A -> C -> D -> F -> G -> J -> L,11,True,Tie
+Low,1,5,20,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> H -> I -> J -> L,11,False,21,23.52941176470588,A -> C -> B -> E -> H -> I -> J -> L,11,False,Tie
+Low,2,5,20,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,14,True,17,0.0,A -> C -> D -> F -> G -> J -> L,11,True,Tie
+Low,3,5,20,17,A -> C -> D -> F -> I -> L,18,5.88235294117647,A -> C -> D -> F -> I -> J -> L,14,False,18,5.88235294117647,A -> C -> D -> F -> I -> J -> L,16,False,Tie
+Low,4,5,20,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> H -> I -> J -> L,11,False,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,11,False,Adaptive Win
+Low,5,5,20,17,A -> C -> D -> F -> I -> L,18,5.88235294117647,A -> C -> D -> F -> I -> J -> L,11,False,18,5.88235294117647,A -> C -> D -> F -> I -> J -> L,11,False,Tie
+Low,6,5,20,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,11,False,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,11,False,Tie
+Low,7,5,20,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> D -> F -> E -> H -> I -> J -> L,11,False,20,17.647058823529413,A -> C -> D -> F -> E -> H -> I -> L,11,False,Adaptive Win
+Low,8,5,20,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,14,False,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,11,False,Standard Win
+Low,9,5,20,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> D -> F -> E -> H -> I -> J -> L,17,False,20,17.647058823529413,A -> B -> E -> F -> G -> J -> L,17,False,Adaptive Win
+Low,10,5,20,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> B -> C -> D -> F -> G -> J -> L,11,False,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,11,False,Tie
+Low,11,5,20,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> D -> F -> E -> H -> I -> J -> L,17,False,21,23.52941176470588,A -> C -> B -> E -> H -> I -> J -> L,14,False,Tie
+Low,12,5,20,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,11,False,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,12,False,Tie
+Low,13,5,20,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> D -> F -> E -> H -> I -> J -> L,11,False,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,16,False,Adaptive Win
+Low,14,5,20,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,14,True,17,0.0,A -> C -> D -> F -> G -> J -> L,12,True,Tie
+Low,15,5,20,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> C -> D -> F -> E -> H -> I -> L,13,False,17,0.0,A -> C -> D -> F -> G -> J -> L,15,True,Adaptive Win
+Low,16,5,20,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,12,True,17,0.0,A -> C -> D -> F -> G -> J -> L,12,True,Tie
+Low,17,5,20,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,15,False,17,0.0,A -> C -> D -> F -> G -> J -> L,15,True,Adaptive Win
+Low,18,5,20,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,11,True,17,0.0,A -> C -> D -> F -> G -> J -> L,11,True,Tie
+Low,19,5,20,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,12,True,17,0.0,A -> C -> D -> F -> G -> J -> L,15,True,Tie
+Low,20,5,20,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> H -> I -> J -> L,11,False,21,23.52941176470588,A -> C -> B -> E -> H -> I -> J -> L,11,False,Tie
+Low,21,5,20,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> H -> I -> J -> L,12,False,17,0.0,A -> C -> D -> F -> G -> J -> L,16,True,Adaptive Win
+Low,22,5,20,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> H -> K -> L,13,False,21,23.52941176470588,A -> C -> D -> F -> E -> H -> I -> J -> L,11,False,Tie
+Low,23,5,20,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> H -> K -> L,12,False,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,20,False,Adaptive Win
+Low,24,5,20,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,11,False,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,11,False,Tie
+Low,25,5,20,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,12,False,20,17.647058823529413,A -> C -> D -> F -> E -> H -> I -> L,14,False,Tie
+Low,26,5,20,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,17,False,20,17.647058823529413,A -> C -> D -> F -> E -> H -> I -> L,16,False,Tie
+Low,27,5,20,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> D -> F -> E -> H -> I -> J -> L,11,False,17,0.0,A -> C -> D -> F -> G -> J -> L,14,True,Adaptive Win
+Low,28,5,20,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,12,True,17,0.0,A -> C -> D -> F -> G -> J -> L,12,True,Tie
+Low,29,5,20,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> C -> D -> F -> E -> H -> I -> L,11,False,20,17.647058823529413,A -> C -> D -> F -> E -> H -> I -> L,11,False,Tie
+Medium,0,10,50,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,11,True,17,0.0,A -> C -> D -> F -> G -> J -> L,11,True,Tie
+Medium,1,10,50,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> D -> F -> E -> H -> K -> L,20,False,20,17.647058823529413,A -> C -> D -> F -> E -> H -> I -> L,18,False,Adaptive Win
+Medium,2,10,50,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,16,False,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,15,False,Tie
+Medium,3,10,50,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,10,False,17,0.0,A -> C -> D -> F -> G -> J -> L,15,True,Adaptive Win
+Medium,4,10,50,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,10,False,17,0.0,A -> C -> D -> F -> G -> J -> L,24,True,Adaptive Win
+Medium,5,10,50,17,A -> C -> D -> F -> I -> L,18,5.88235294117647,A -> C -> D -> F -> I -> J -> L,11,False,17,0.0,A -> C -> D -> F -> G -> J -> L,17,True,Adaptive Win
+Medium,6,10,50,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,14,False,21,23.52941176470588,A -> C -> B -> E -> H -> K -> L,16,False,Standard Win
+Medium,7,10,50,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,11,False,17,0.0,A -> C -> D -> F -> G -> J -> L,20,True,Adaptive Win
+Medium,8,10,50,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,13,True,17,0.0,A -> C -> D -> F -> G -> J -> L,12,True,Tie
+Medium,9,10,50,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,10,False,20,17.647058823529413,A -> B -> E -> H -> I -> J -> L,14,False,Adaptive Win
+Medium,10,10,50,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,14,False,17,0.0,A -> C -> D -> F -> I -> L,27,True,Adaptive Win
+Medium,11,10,50,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,17,False,24,41.17647058823529,A -> C -> B -> E -> F -> G -> J -> I -> L,12,False,Standard Win
+Medium,12,10,50,17,A -> C -> D -> F -> I -> L,29,70.58823529411765,A -> C -> B -> E -> F -> G -> J -> I -> H -> K -> L,10,False,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,12,False,Adaptive Win
+Medium,13,10,50,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> B -> E -> H -> I -> J -> L,12,False,17,0.0,A -> C -> D -> F -> I -> L,21,True,Adaptive Win
+Medium,14,10,50,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,10,True,17,0.0,A -> C -> D -> F -> G -> J -> L,13,True,Tie
+Medium,15,10,50,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,10,True,17,0.0,A -> C -> D -> F -> G -> J -> L,23,True,Tie
+Medium,16,10,50,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,13,True,17,0.0,A -> C -> D -> F -> G -> J -> L,13,True,Tie
+Medium,17,10,50,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,16,False,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,13,False,Tie
+Medium,18,10,50,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,15,True,17,0.0,A -> C -> D -> F -> G -> J -> L,18,True,Tie
+Medium,19,10,50,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,12,True,17,0.0,A -> C -> D -> F -> G -> J -> L,13,True,Tie
+Medium,20,10,50,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> B -> E -> H -> I -> J -> L,27,False,21,23.52941176470588,A -> C -> D -> F -> E -> H -> K -> L,15,False,Standard Win
+Medium,21,10,50,17,A -> C -> D -> F -> I -> L,22,29.411764705882355,A -> C -> B -> E -> F -> I -> J -> L,10,False,21,23.52941176470588,A -> C -> B -> E -> H -> K -> L,18,False,Adaptive Win
+Medium,22,10,50,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,10,False,21,23.52941176470588,A -> C -> D -> F -> E -> H -> I -> J -> L,11,False,Tie
+Medium,23,10,50,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,11,True,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,11,False,Standard Win
+Medium,24,10,50,17,A -> C -> D -> F -> I -> L,18,5.88235294117647,A -> C -> D -> F -> I -> J -> L,22,False,17,0.0,A -> C -> D -> F -> G -> J -> L,19,True,Adaptive Win
+Medium,25,10,50,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,14,False,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,14,False,Tie
+Medium,26,10,50,17,A -> C -> D -> F -> I -> L,18,5.88235294117647,A -> C -> D -> F -> I -> J -> L,22,False,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,19,False,Standard Win
+Medium,27,10,50,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,11,False,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,13,False,Standard Win
+Medium,28,10,50,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> C -> B -> E -> H -> I -> L,15,False,17,0.0,A -> C -> D -> F -> G -> J -> L,16,True,Adaptive Win
+Medium,29,10,50,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> H -> K -> L,14,False,21,23.52941176470588,A -> C -> B -> E -> H -> K -> L,11,False,Tie
+High,0,50,100,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,11,False,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,11,False,Tie
+High,1,50,100,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,13,False,17,0.0,A -> C -> D -> F -> G -> J -> L,13,True,Adaptive Win
+High,2,50,100,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,10,False,17,0.0,A -> C -> D -> F -> G -> J -> L,22,True,Adaptive Win
+High,3,50,100,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> B -> E -> H -> I -> J -> L,10,False,17,0.0,A -> C -> D -> F -> G -> J -> L,14,True,Adaptive Win
+High,4,50,100,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,13,False,17,0.0,A -> C -> D -> F -> G -> J -> L,23,True,Adaptive Win
+High,5,50,100,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,10,True,17,0.0,A -> C -> D -> F -> G -> J -> L,24,True,Tie
+High,6,50,100,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,28,True,17,0.0,A -> C -> D -> F -> G -> J -> L,18,True,Tie
+High,7,50,100,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,21,True,17,0.0,A -> C -> D -> F -> G -> J -> L,13,True,Tie
+High,8,50,100,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,17,True,17,0.0,A -> C -> D -> F -> G -> J -> L,17,True,Tie
+High,9,50,100,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,10,False,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,15,False,Tie
+High,10,50,100,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,15,False,17,0.0,A -> C -> D -> F -> G -> J -> L,19,True,Adaptive Win
+High,11,50,100,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,17,False,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,16,False,Tie
+High,12,50,100,17,A -> C -> D -> F -> I -> L,20,17.647058823529413,A -> B -> E -> H -> I -> J -> L,10,False,17,0.0,A -> C -> D -> F -> G -> J -> L,24,True,Adaptive Win
+High,13,50,100,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,12,False,17,0.0,A -> C -> D -> F -> G -> J -> L,13,True,Adaptive Win
+High,14,50,100,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,10,True,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,16,False,Standard Win
+High,15,50,100,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,12,False,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,12,False,Tie
+High,16,50,100,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,10,False,17,0.0,A -> C -> D -> F -> G -> J -> L,21,True,Adaptive Win
+High,17,50,100,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> H -> I -> J -> L,10,False,21,23.52941176470588,A -> C -> B -> E -> H -> I -> J -> L,11,False,Tie
+High,18,50,100,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,20,True,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,12,False,Standard Win
+High,19,50,100,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,22,True,17,0.0,A -> C -> D -> F -> G -> J -> L,21,True,Tie
+High,20,50,100,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,10,False,20,17.647058823529413,A -> B -> E -> H -> I -> J -> L,22,False,Adaptive Win
+High,21,50,100,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,21,True,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,14,False,Standard Win
+High,22,50,100,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,12,False,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,13,False,Tie
+High,23,50,100,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,21,True,17,0.0,A -> C -> D -> F -> G -> J -> L,11,True,Tie
+High,24,50,100,17,A -> C -> D -> F -> I -> L,18,5.88235294117647,A -> C -> D -> F -> I -> J -> L,30,False,17,0.0,A -> C -> D -> F -> G -> J -> L,18,True,Adaptive Win
+High,25,50,100,17,A -> C -> D -> F -> I -> L,22,29.411764705882355,A -> C -> D -> F -> I -> H -> K -> L,23,False,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,18,False,Adaptive Win
+High,26,50,100,17,A -> C -> D -> F -> I -> L,22,29.411764705882355,A -> C -> B -> E -> F -> I -> J -> L,20,False,17,0.0,A -> C -> D -> F -> G -> J -> L,22,True,Adaptive Win
+High,27,50,100,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,12,False,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,11,False,Tie
+High,28,50,100,17,A -> C -> D -> F -> I -> L,17,0.0,A -> C -> D -> F -> G -> J -> L,15,True,17,0.0,A -> C -> D -> F -> G -> J -> L,15,True,Tie
+High,29,50,100,17,A -> C -> D -> F -> I -> L,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,18,False,21,23.52941176470588,A -> C -> B -> E -> F -> G -> J -> L,20,False,Tie
